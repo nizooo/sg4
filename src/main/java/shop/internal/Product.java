@@ -1,10 +1,12 @@
 package shop.internal;
 
+import java.math.BigDecimal;
+
 public class Product {
 	
 	private String name;
 	private String description;
-	private Number price;
+	private BigDecimal price;
 	
 	
 	/**
@@ -13,7 +15,7 @@ public class Product {
 	 * @param description
 	 * @param price
 	 */
-	public Product(String name, String description, Number price) {
+	public Product(String name, String description, BigDecimal price) {
 		super();
 		this.name = name;
 		this.description = description;
@@ -36,11 +38,11 @@ public class Product {
 		this.description = description;
 	}
 	
-	public Number getPrice() {
+	public BigDecimal getPrice() {
 		return price;
 	}
 	
-	public void setPrice(Number price) {
+	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
 	

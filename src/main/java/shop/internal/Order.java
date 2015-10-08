@@ -11,8 +11,9 @@ public class Order {
 	private Product product;
 	
 	
-	public Order createOrder(){
-		
+	public Order createOrder(Product product, int qty){
+		this.product = product;
+		this.qty = qty;
 		
 		System.out.println("order id = "+this.id);
 		System.out.println("product name  = "+product.getName());
@@ -20,8 +21,9 @@ public class Order {
 		System.out.println("qty is "+ this.qty);
 		
 		this.id = 111;
+		return null;
 		
-		return this;
+		
 		
 		
 	}

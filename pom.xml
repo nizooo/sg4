@@ -8,6 +8,7 @@
 		<!-- unified location for version numbers. child projects can override -->
 		<spring.framework.version>4.0.5.RELEASE</spring.framework.version>
 		<spring.context.version>4.0.5.RELEASE</spring.context.version>
+		<spring.test.version>4.0.5.RELEASE</spring.test.version>
 		<junit.version>4.12</junit.version>
 	</properties>
 
@@ -21,6 +22,11 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${spring.context.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.test.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

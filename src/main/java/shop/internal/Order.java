@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class Order {
 	
-	private int id;
-	private int qty;
+	private int id = 0;
+	private int qty = 0;
 	
 	@Autowired
 	private Product product;

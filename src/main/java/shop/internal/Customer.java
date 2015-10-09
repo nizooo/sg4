@@ -9,6 +9,18 @@ public class Customer {
 	
 	
 	
+	
+	
+	public Customer(String name, String age, String address, String email) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.address = address;
+		this.email = email;
+	}
+
+
+
 	public String getName() {
 		return name;
 	}
